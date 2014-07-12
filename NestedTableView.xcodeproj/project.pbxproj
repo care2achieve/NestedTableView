@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42B319E2196FA67400FBB3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B319E1196FA67400FBB3D4 /* Foundation.framework */; };
+		42B319E4196FA67500FBB3D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B319E3196FA67400FBB3D4 /* CoreGraphics.framework */; };
+		42B319E6196FA67500FBB3D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B319E5196FA67500FBB3D4 /* UIKit.framework */; };
+		42B319EC196FA67500FBB3D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B319EA196FA67500FBB3D4 /* InfoPlist.strings */; };
+		42B319EE196FA67500FBB3D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B319ED196FA67500FBB3D4 /* main.m */; };
+		42B319F2196FA67500FBB3D4 /* MTRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B319F1196FA67500FBB3D4 /* MTRAppDelegate.m */; };
+		42B319F5196FA67500FBB3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B319F3196FA67500FBB3D4 /* Main.storyboard */; };
+		42B319F8196FA67500FBB3D4 /* MTRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B319F7196FA67500FBB3D4 /* MTRViewController.m */; };
+		42B319FA196FA67500FBB3D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B319F9196FA67500FBB3D4 /* Images.xcassets */; };
+		42B31A01196FA67500FBB3D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B31A00196FA67500FBB3D4 /* XCTest.framework */; };
+		42B31A02196FA67500FBB3D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B319E1196FA67400FBB3D4 /* Foundation.framework */; };
+		42B31A03196FA67500FBB3D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42B319E5196FA67500FBB3D4 /* UIKit.framework */; };
+		42B31A0B196FA67500FBB3D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42B31A09196FA67500FBB3D4 /* InfoPlist.strings */; };
+		42B31A0D196FA67500FBB3D4 /* NestedTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B31A0C196FA67500FBB3D4 /* NestedTableViewTests.m */; };
+		42B31A18196FA78D00FBB3D4 /* MTRMinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B31A17196FA78D00FBB3D4 /* MTRMinCell.m */; };
+		42B31A1B196FAB9700FBB3D4 /* MTRSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B31A1A196FAB9700FBB3D4 /* MTRSubCell.m */; };
+		42B31A1E196FACD100FBB3D4 /* MTRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B31A1D196FACD100FBB3D4 /* MTRModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42B31A04196FA67500FBB3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42B319D6196FA67400FBB3D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B319DD196FA67400FBB3D4;
+			remoteInfo = NestedTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42B319DE196FA67400FBB3D4 /* NestedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B319E1196FA67400FBB3D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		42B319E3196FA67400FBB3D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		42B319E5196FA67500FBB3D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		42B319E9196FA67500FBB3D4 /* NestedTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NestedTableView-Info.plist"; sourceTree = "<group>"; };
+		42B319EB196FA67500FBB3D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42B319ED196FA67500FBB3D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42B319EF196FA67500FBB3D4 /* NestedTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NestedTableView-Prefix.pch"; sourceTree = "<group>"; };
+		42B319F0196FA67500FBB3D4 /* MTRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRAppDelegate.h; sourceTree = "<group>"; };
+		42B319F1196FA67500FBB3D4 /* MTRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRAppDelegate.m; sourceTree = "<group>"; };
+		42B319F4196FA67500FBB3D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42B319F6196FA67500FBB3D4 /* MTRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTRViewController.h; sourceTree = "<group>"; };
+		42B319F7196FA67500FBB3D4 /* MTRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRViewController.m; sourceTree = "<group>"; };
+		42B319F9196FA67500FBB3D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42B319FF196FA67500FBB3D4 /* NestedTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestedTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B31A00196FA67500FBB3D4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		42B31A08196FA67500FBB3D4 /* NestedTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NestedTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		42B31A0A196FA67500FBB3D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		42B31A0C196FA67500FBB3D4 /* NestedTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestedTableViewTests.m; sourceTree = "<group>"; };
+		42B31A16196FA78D00FBB3D4 /* MTRMinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRMinCell.h; sourceTree = "<group>"; };
+		42B31A17196FA78D00FBB3D4 /* MTRMinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRMinCell.m; sourceTree = "<group>"; };
+		42B31A19196FAB9700FBB3D4 /* MTRSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRSubCell.h; sourceTree = "<group>"; };
+		42B31A1A196FAB9700FBB3D4 /* MTRSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRSubCell.m; sourceTree = "<group>"; };
+		42B31A1C196FACD100FBB3D4 /* MTRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRModel.h; sourceTree = "<group>"; };
+		42B31A1D196FACD100FBB3D4 /* MTRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B319DB196FA67400FBB3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B319E4196FA67500FBB3D4 /* CoreGraphics.framework in Frameworks */,
+				42B319E6196FA67500FBB3D4 /* UIKit.framework in Frameworks */,
+				42B319E2196FA67400FBB3D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B319FC196FA67500FBB3D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B31A01196FA67500FBB3D4 /* XCTest.framework in Frameworks */,
+				42B31A03196FA67500FBB3D4 /* UIKit.framework in Frameworks */,
+				42B31A02196FA67500FBB3D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42B319D5196FA67400FBB3D4 = {
+			isa = PBXGroup;
+			children = (
+				42B319E7196FA67500FBB3D4 /* NestedTableView */,
+				42B31A06196FA67500FBB3D4 /* NestedTableViewTests */,
+				42B319E0196FA67400FBB3D4 /* Frameworks */,
+				42B319DF196FA67400FBB3D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42B319DF196FA67400FBB3D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42B319DE196FA67400FBB3D4 /* NestedTableView.app */,
+				42B319FF196FA67500FBB3D4 /* NestedTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42B319E0196FA67400FBB3D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42B319E1196FA67400FBB3D4 /* Foundation.framework */,
+				42B319E3196FA67400FBB3D4 /* CoreGraphics.framework */,
+				42B319E5196FA67500FBB3D4 /* UIKit.framework */,
+				42B31A00196FA67500FBB3D4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42B319E7196FA67500FBB3D4 /* NestedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				42B319F0196FA67500FBB3D4 /* MTRAppDelegate.h */,
+				42B319F1196FA67500FBB3D4 /* MTRAppDelegate.m */,
+				42B319F3196FA67500FBB3D4 /* Main.storyboard */,
+				42B319F6196FA67500FBB3D4 /* MTRViewController.h */,
+				42B319F7196FA67500FBB3D4 /* MTRViewController.m */,
+				42B31A16196FA78D00FBB3D4 /* MTRMinCell.h */,
+				42B31A17196FA78D00FBB3D4 /* MTRMinCell.m */,
+				42B31A19196FAB9700FBB3D4 /* MTRSubCell.h */,
+				42B31A1A196FAB9700FBB3D4 /* MTRSubCell.m */,
+				42B31A1C196FACD100FBB3D4 /* MTRModel.h */,
+				42B31A1D196FACD100FBB3D4 /* MTRModel.m */,
+				42B319F9196FA67500FBB3D4 /* Images.xcassets */,
+				42B319E8196FA67500FBB3D4 /* Supporting Files */,
+			);
+			path = NestedTableView;
+			sourceTree = "<group>";
+		};
+		42B319E8196FA67500FBB3D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B319E9196FA67500FBB3D4 /* NestedTableView-Info.plist */,
+				42B319EA196FA67500FBB3D4 /* InfoPlist.strings */,
+				42B319ED196FA67500FBB3D4 /* main.m */,
+				42B319EF196FA67500FBB3D4 /* NestedTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42B31A06196FA67500FBB3D4 /* NestedTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				42B31A0C196FA67500FBB3D4 /* NestedTableViewTests.m */,
+				42B31A07196FA67500FBB3D4 /* Supporting Files */,
+			);
+			path = NestedTableViewTests;
+			sourceTree = "<group>";
+		};
+		42B31A07196FA67500FBB3D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42B31A08196FA67500FBB3D4 /* NestedTableViewTests-Info.plist */,
+				42B31A09196FA67500FBB3D4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42B319DD196FA67400FBB3D4 /* NestedTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B31A10196FA67500FBB3D4 /* Build configuration list for PBXNativeTarget "NestedTableView" */;
+			buildPhases = (
+				42B319DA196FA67400FBB3D4 /* Sources */,
+				42B319DB196FA67400FBB3D4 /* Frameworks */,
+				42B319DC196FA67400FBB3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestedTableView;
+			productName = NestedTableView;
+			productReference = 42B319DE196FA67400FBB3D4 /* NestedTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42B319FE196FA67500FBB3D4 /* NestedTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42B31A13196FA67500FBB3D4 /* Build configuration list for PBXNativeTarget "NestedTableViewTests" */;
+			buildPhases = (
+				42B319FB196FA67500FBB3D4 /* Sources */,
+				42B319FC196FA67500FBB3D4 /* Frameworks */,
+				42B319FD196FA67500FBB3D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42B31A05196FA67500FBB3D4 /* PBXTargetDependency */,
+			);
+			name = NestedTableViewTests;
+			productName = NestedTableViewTests;
+			productReference = 42B319FF196FA67500FBB3D4 /* NestedTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42B319D6196FA67400FBB3D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = menlo;
+				TargetAttributes = {
+					42B319FE196FA67500FBB3D4 = {
+						TestTargetID = 42B319DD196FA67400FBB3D4;
+					};
+				};
+			};
+			buildConfigurationList = 42B319D9196FA67400FBB3D4 /* Build configuration list for PBXProject "NestedTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42B319D5196FA67400FBB3D4;
+			productRefGroup = 42B319DF196FA67400FBB3D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42B319DD196FA67400FBB3D4 /* NestedTableView */,
+				42B319FE196FA67500FBB3D4 /* NestedTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42B319DC196FA67400FBB3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B319FA196FA67500FBB3D4 /* Images.xcassets in Resources */,
+				42B319EC196FA67500FBB3D4 /* InfoPlist.strings in Resources */,
+				42B319F5196FA67500FBB3D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B319FD196FA67500FBB3D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B31A0B196FA67500FBB3D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42B319DA196FA67400FBB3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B31A1B196FAB9700FBB3D4 /* MTRSubCell.m in Sources */,
+				42B319F2196FA67500FBB3D4 /* MTRAppDelegate.m in Sources */,
+				42B319EE196FA67500FBB3D4 /* main.m in Sources */,
+				42B31A18196FA78D00FBB3D4 /* MTRMinCell.m in Sources */,
+				42B319F8196FA67500FBB3D4 /* MTRViewController.m in Sources */,
+				42B31A1E196FACD100FBB3D4 /* MTRModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B319FB196FA67500FBB3D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B31A0D196FA67500FBB3D4 /* NestedTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42B31A05196FA67500FBB3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42B319DD196FA67400FBB3D4 /* NestedTableView */;
+			targetProxy = 42B31A04196FA67500FBB3D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42B319EA196FA67500FBB3D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B319EB196FA67500FBB3D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		42B319F3196FA67500FBB3D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B319F4196FA67500FBB3D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42B31A09196FA67500FBB3D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42B31A0A196FA67500FBB3D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42B31A0E196FA67500FBB3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42B31A0F196FA67500FBB3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42B31A11196FA67500FBB3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedTableView/NestedTableView-Prefix.pch";
+				INFOPLIST_FILE = "NestedTableView/NestedTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		42B31A12196FA67500FBB3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedTableView/NestedTableView-Prefix.pch";
+				INFOPLIST_FILE = "NestedTableView/NestedTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		42B31A14196FA67500FBB3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NestedTableView.app/NestedTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedTableView/NestedTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NestedTableViewTests/NestedTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		42B31A15196FA67500FBB3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NestedTableView.app/NestedTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NestedTableView/NestedTableView-Prefix.pch";
+				INFOPLIST_FILE = "NestedTableViewTests/NestedTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42B319D9196FA67400FBB3D4 /* Build configuration list for PBXProject "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B31A0E196FA67500FBB3D4 /* Debug */,
+				42B31A0F196FA67500FBB3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B31A10196FA67500FBB3D4 /* Build configuration list for PBXNativeTarget "NestedTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B31A11196FA67500FBB3D4 /* Debug */,
+				42B31A12196FA67500FBB3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42B31A13196FA67500FBB3D4 /* Build configuration list for PBXNativeTarget "NestedTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42B31A14196FA67500FBB3D4 /* Debug */,
+				42B31A15196FA67500FBB3D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42B319D6196FA67400FBB3D4 /* Project object */;
+}
